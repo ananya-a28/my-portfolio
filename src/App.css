@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  font-family: "Space Grotesk", monospace;
+  background-image: linear-gradient(90deg, #101010, rgba(0, 0, 0, 0.83)),
+    url(/public/images/noise.svg), linear-gradient(#b3fc03 1px, transparent 0),
+    linear-gradient(90deg, #b3fc03 1px, #000 0);
+  background-size: auto, auto, 20px 20px, 20px 20px;
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+}
+
+.header {
+  position: fixed;
+  margin: 4rem; /* 4rem margin on all sides */
+  z-index: 1000;
+  width: 40%;
+  padding-left: 1rem;
+}
+
+.main-content {
+  position: absolute; /* Positions relative to the nearest positioned ancestor */
+  left: calc(40% + 8rem);
+}
+.header h1,
+.header h3 {
+  letter-spacing: 5px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header h3 {
+  color: grey;
+}
+.socials img {
+  width: 1rem;
+  margin: 0px 10px;
+}
+.socials img:first-child {
+  margin-left: 0px;
+}
+.time-and-flag {
+  font-size: large;
+  color: #b3fc03;
+}
+
+.green-strip {
+  height: 1px;
+  width: 30rem;
+  background: linear-gradient(
+    to right,
+    rgb(74, 222, 128) 0%,
+    rgba(74, 222, 128, 0) 100%
+  );
+}
+.tabs {
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  right: 1rem;
+  list-style-type: none; /* If using <li> elements */
+  margin-top: 1rem;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #666; /* Default text color */
+  transition: color 0.3s ease;
+}
+
+.tab:hover,
+.tab.active {
+  color: #4caf50;
+}
+.content {
+  color: rgb(204 214 246);
+}

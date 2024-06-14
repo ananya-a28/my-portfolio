@@ -1,0 +1,16 @@
+.about {
+  padding-top: 4rem;
+  padding-right: 6rem;
+  word-spacing: 0.1em; /* Adjustable based on design requirements */
+  letter-spacing: 0.025em; /* Slight increase in letter spacing */
+  font-size: 1rem;
+  margin-bottom: 10rem;
+}
+.about h1 {
+  color: #4caf50;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 20px; /* Adds 20 pixels of space below each paragraph */
+}

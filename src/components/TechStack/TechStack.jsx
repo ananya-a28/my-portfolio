@@ -55,22 +55,29 @@ function TechStack() {
           </li>
         </ul>
       </div>
-      <div className="backend">
-        <span>BACKEND</span>
+      <div className="database">
+        <span>DATABASE AND DEV OPS</span>
         <ul>
           <li>
-            Java <img src="/images/java.svg" alt="java" />
+            Git <img src="/images/git.svg" alt="git" />
           </li>
           <li>
-            Spring Boot <img src="/images/springBoot.svg" alt="springBoot" />
+            GitHub <img src="/images/gitHub.svg" alt="github" />
           </li>
           <li>
-            Node.js
-            <img src="/images/nodejs.svg" alt="nodejs" />
+            Jenkins
+            <img src="/images/jenkins.svg" alt="jenkins" />
           </li>
           <li>
-            Express
-            <img src="/images/express.svg" alt="express" />
+            MySQL
+            <img src="/images/mysql.svg" alt="mysql" />
+          </li>
+          <li>
+            MongoDB
+            <img src="/images/mongodb.svg" alt="mongodb" />
+          </li>
+          <li>
+            PostgreSQL <img src="/images/postgreSQL.svg" alt="postgreSQL" />
           </li>
         </ul>
       </div>

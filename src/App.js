@@ -2,13 +2,13 @@ import "./App.css";
 import React, { useState, useEffect, useRef } from "react";
 import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
-import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Experience from "./components/Experience/Experience";
 function App() {
   const [activeTab, setActiveTab] = useState("about");
   const aboutRef = useRef(null);
   const techStackRef = useRef(null);
-  const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
   const contactRef = useRef(null);
 
   const scrollToRef = (ref) => {
@@ -58,13 +58,13 @@ function App() {
             TechStack
           </div>
           <div
-            className={activeTab === "projects" ? "tab active" : "tab"}
+            className={activeTab === "experience" ? "tab active" : "tab"}
             onClick={() => {
-              setActiveTab("projects");
-              scrollToRef(projectsRef);
+              setActiveTab("experience");
+              scrollToRef(experienceRef);
             }}
           >
-            Projects
+            Experience
           </div>
           <div
             className={activeTab === "contact" ? "tab active" : "tab"}
@@ -85,8 +85,8 @@ function App() {
           <div id="techStackRef" ref={techStackRef}>
             <TechStack />
           </div>
-          <div id="projects" ref={projectsRef}>
-            <Projects />
+          <div id="projects" ref={experienceRef}>
+            <Experience />
           </div>
           <div id="contact" ref={contactRef}>
             <Contact />

@@ -1,6 +1,6 @@
 .techStack {
   word-spacing: 0.1em;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-bottom: 20rem;
   padding-right: 6rem;
   padding-top: 4rem;
@@ -8,29 +8,33 @@
 .techStack h1 {
   color: #4caf50;
 }
-.frontend .backend {
+.frontend .backend .database {
   letter-spacing: 0.1rem;
   font-size: larger;
 }
 .frontend ul,
-.backend ul {
+.backend ul,
+.database ul {
   list-style-type: none; /* Removes the bullet points */
   padding-left: 0;
   margin-left: 0;
 }
 .frontend li,
-.backend li {
+.backend li,
+.database li {
   display: inline-block;
   margin: 10px 20px;
   line-height: 1.6;
   margin-bottom: 10px;
 }
 .frontend li:last-child,
-.backend li:last-child {
+.backend li:last-child,
+.database li:last-child {
   margin-right: 0; /* Removes the margin from the last item */
 }
 .frontend li img,
-.backend li img {
+.backend li img,
+.database li img {
   vertical-align: middle; /* Aligns the image with the text vertically */
   margin-left: 8px; /* Adds left margin to create space between text and image */
   height: 20px; /* Sets a uniform height for all images */

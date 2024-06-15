@@ -1,0 +1,10 @@
+.experience {
+  word-spacing: 0.1em;
+  font-size: 1.15rem;
+  margin-bottom: 20rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+}
+.experience h1 {
+  color: #4caf50;
+}
